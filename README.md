@@ -64,7 +64,8 @@ roslaunch moveit_pkg demo.launch
 
 ![image](https://github.com/VAsmaaShaker/Controlling_Robot_Arm-/assets/174564364/77a7e1c3-ca23-4f1c-99de-89710a3f588f)
 
-
+--------------------------------------------------------------------------
+![image](https://github.com/VAsmaaShaker/Controlling_Robot_Arm/assets/174564364/0ca9bd76-853f-41cd-91af-a8830482149b)
 
 
 
