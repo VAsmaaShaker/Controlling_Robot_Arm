@@ -4,7 +4,7 @@ Implementing a robot arm on ROS by joint_state_publisher, Moveit, and kinematics
 ### Step1: Creating a ROS Workspace
 
 Enter the following commands in your cmd:
-```bash
+```
  source /opt/ros/noetic/setup.bash
  mkdir -p ~/catkin_ws/src
  cd ~/catkin_ws/ 
@@ -16,7 +16,7 @@ Enter the following commands in your cmd:
 
 ### Step2: Installing Arduino Robot Arm Package
 **Note: Add the “arduino_robot_arm” package to “src” folder.**
-```bash
+```
  cd catkin_ws/src/
  sudo apt install git
  git clone https://github.com/smart-methods/arduino_robot_arm
@@ -24,7 +24,7 @@ Enter the following commands in your cmd:
 
 ### Step3: Installing Dependencies
 
-```bash
+```
  cd catkin_ws
  sudo apt-get install ros-noetic-moveit
  sudo apt-get install ros-noetic-joint-state-publisher ros-noetic-joint-state-publisher-gui
@@ -34,7 +34,7 @@ Enter the following commands in your cmd:
 
 ### Step4: Compiling Packages
 
-```bash
+```
 catkin_make
 ```
 
@@ -42,7 +42,7 @@ catkin_make
 ### Controlling the Robot Arm
 
 #### 1. Launching RViz by Joint State Publisher
-```bash
+```
 roslaunch robot_arm_pkg check_motors.launch
 ```
 
@@ -50,7 +50,7 @@ roslaunch robot_arm_pkg check_motors.launch
 ![image](https://github.com/VAsmaaShaker/Controlling_Robot_Arm-/assets/174564364/72ca14d2-266f-47c6-ab7a-2555135b2046)
 
 #### 2. Running Gazebo Simulation
-```bash
+```
 roslaunch robot_arm_pkg check_motors_gazebo.launch
 ```
 
@@ -58,7 +58,7 @@ roslaunch robot_arm_pkg check_motors_gazebo.launch
 
 
 #### 3. Using Moveit for Kinematics
-```bash
+```
 roslaunch moveit_pkg demo.launch
 ```
 
